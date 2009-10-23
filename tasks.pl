@@ -8,7 +8,7 @@ use warnings;
 use TaskDBDriver;
 use FileHandle;
 
-my $task_file = "/home/mahesh/.tasks";
+my $task_file = $ENV{'HOME'} . "/.tasks";
 
 my $q = new CGI;
 
