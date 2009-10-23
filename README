@@ -1,0 +1,5 @@
+This is a simple CGI script that displays tasks/TODO
+lists maintained in a text file in a pretty web page.
+
+Task lists are stored in ~/.tasks file. A sample
+tasks file is provided by the name test.tasks.
